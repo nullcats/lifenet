@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Index &ndash; NULLCats &ndash; T-Mobile Big Data Hackathon 2017</title>
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,initial-scale=1,user-scalable=yes">
+
+  <!--<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700">-->
+  <link rel="stylesheet"
+        type="text/css"
+        href="stylesheets/base.css"/>
+
+  <style type="text/css">
+    body {
+      background-image: url('images/index-bg-gradient.png');
+    }
+
+    .btn-accelerometer {
+      width: 281px;
+      height: 281px;
+      margin: 132px auto 0;
+      background: no-repeat url("images/index-landscape.gif");
+    }
+
+    .btn-accelerometer--fired {
+      background-image: url("images/index-animated.gif");
+    }
+
+    .btn-block + .btn-block.btn-911 {
+      margin-top: 30px;
+      height: 70px;
+    }
+  </style>
+</head>
+<body>
+
+  <!--Preload the image so we don't see a flash of the background color-->
+  <img style="display: none;" src="images/index-bg-gradient.png">
+  <img style="display: none;" src="images/index-landscape.gif">
+  <img style="display: none;" src="images/index-animated.gif">
+
+  <section>
+    <a id="fireAccelerometer" class="btn-block btn-accelerometer" href="#"></a>
+
+    <a id="nineElevenBtn" class="btn-block btn-911" href="#"></a>
+  </section>
+
+  <!--Vendor scripts-->
+  <script src="Scripts/jquery-3.1.1.js"></script>
+  <script src="Scripts/underscore.js"></script>
+  <script src="javascripts/bootstrap.js"></script>
+
+  <!--Custom scripts-->
+  <script src="Scripts/index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Map &ndash; NULLCats &ndash; T-Mobile Big Data Hackathon 2017</title>
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,initial-scale=1,user-scalable=yes">
+
+  <!--<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700">-->
+  <link rel="stylesheet"
+        type="text/css"
+        href="stylesheets/base.css"/>
+
+  <style type="text/css">
+    body {
+      background-image: url('images/map.png');
+    }
+
+    .btn-restart {
+      position: absolute;
+      bottom: 0;
+      height: 64px;
+    }
+  </style>
+</head>
+<body>
+
+  <!--Preload the image so we don't see a flash of the background color-->
+  <img style="display: none;" src="images/map.png">
+
+  <section>
+    <a class="btn-block btn-restart" href="index.html"></a>
+  </section>
+
+  <!--Vendor scripts-->
+  <script src="Scripts/jquery-3.1.1.js"></script>
+  <script src="Scripts/underscore.js"></script>
+  <script src="javascripts/bootstrap.js"></script>
+
+  <!--Custom scripts-->
+  <script src="Scripts/map.js"></script>
+
+</body>
+</html>
